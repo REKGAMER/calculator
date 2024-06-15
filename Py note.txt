@@ -1,0 +1,33 @@
+what the calculator need to have:
+
+    1.add(+)
+    2.sub(-)
+    3.mul(*)
+    4.div(/)
+    5.eqal(=)
+
+
+what can be added more :
+
+    1. breacts (),[],{}.
+    2.Know what is persentej %
+    3.ETC ETC
+
+// u can change the width , hight adn every thing u want by just chanign some command like
+
+    #Entry(master, width=24, borderwidth=5, font=('Arial', 12))
+                    ------                  ------------------
+    #return Button(
+            self.master,
+            text=value,
+            o| width=6,  # Compact width for the buttons
+            -------
+            o| height=2,  # Compact height for the buttons
+            -------
+            o| font=('Arial', 12),  # Smaller font size
+            -------
+            command=lambda: self.clickButton(str(value)),
+        )
+    
+
+||| If want to l=know anything more that contact in (DISCORD: ani2580)
